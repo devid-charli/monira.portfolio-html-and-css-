@@ -15,7 +15,7 @@
 }
 .navlist{
 display:flex;
-background-color:white;
+/* background-color:white; */
 width: 100%;
 height: 8vh;
 justify-content: center;
@@ -35,5 +35,20 @@ position: fixed;
 .navlist ul li a{
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: rgb(238, 234, 234);
+}
+.left-box.right-box{
+    height: 100vh;
+
+}
+.left-box{
+    background-color:#474343;
+    width:70%;
+}
+.right-box{
+    background-color: #195ead;
+    width: 30%;
+}
+.icon{
+    color: aliceblue;
 }
